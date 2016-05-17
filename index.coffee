@@ -4,7 +4,7 @@ streamToPromise = require 'stream-to-promise'
 _               = require 'lodash'
 
 doIt = =>
-  readDoc = streamToPromise JSDoc src: './node_modules/cylon-i2c/lib/blinkm.js'
+  readDoc = streamToPromise JSDoc src: './node_modules/cylon-gpio/lib/led.js'
   readDoc.then (docs) =>
     docs = JSON.parse docs.toString()
     parsed =

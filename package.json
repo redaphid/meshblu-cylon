@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "coffee-script": "^1.10.0",
+    "cylon-gpio": "^0.29.0",
     "cylon-i2c": "^0.26.1",
     "fs-extra": "^0.30.0",
     "jsdoc-parse": "^1.2.7",
